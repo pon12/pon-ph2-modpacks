@@ -1,0 +1,14 @@
+{
+    "IsRobber": true,
+    "DisplayName": "Bountyhunter",
+    "ClothingRowName": "Employee_RedTie",
+    "AbilityName": "Cloaking Device",
+    "AbilityDescription": "Turn invisible for 10 seconds. (Turrets and AI will still be able to shoot at you.) If you hold weapons masks or bags, they will be visible!",
+    "AbilityIcon": "BH_2.png",
+    "PassiveName": "Bounty",
+    "PassiveDescription": "You have to kill a random employee on the map. When you kill the target, you receive a new bounty target and a $5,000 reward! Watch out the Cops also see your Target!",
+    "PassiveIcon": "BH_1.png",
+    "PrimaryWeapon": 8,
+    "SecondaryWeapon": 7,
+    "ClassCategory": 1
+}

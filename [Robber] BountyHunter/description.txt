@@ -1,0 +1,12 @@
+Adds a Robber class "BountyHunter"
+
+Primary Ability: Cloaking Device
+- Turn invisible for 10 seconds. (Turrets and AI will still be able to shoot at you.) If you hold weapons masks or bags, they will be visible!
+- The cooldown for Primary is 40 seconds, and it is active for 10 seconds.
+
+Secondary Ability: Bounty
+- You have to kill a random employee on the map. When you kill the target, you receive a new bounty target and a $5,000 reward! Watch out the Cops also see your Target!
+- The Target will be pinged every 10 seconds, and the ping will be visible for everyone. (You should only get the money if the BountyHunter kills the Target.)
+
+
+This is my first try at modding this game! :) Feedback is always appreciated.
