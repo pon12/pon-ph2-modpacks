@@ -3,12 +3,12 @@
     "DisplayName": "Gambler",
     "ClothingRowName": "Customer_HoodieRed",
     "AbilityName": "Pocket Casino",
-    "AbilityDescription": "Describe your ability here.",
-    "AbilityIcon": "Icon.png",
+    "AbilityDescription": "You can Gamble the Money you are holding and either double it or loose it all.",
+    "AbilityIcon": "Gambler_1.png",
     "PassiveName": "Lucky Hand",
     "PassiveDescription": "You get 6000$ from every Arcade instead of 3000$.",
-    "PassiveIcon": "Icon.png",
-    "PrimaryWeapon": 1,
-    "SecondaryWeapon": 2,
-    "ClassCategory": 0
+    "PassiveIcon": "Gambler_2.png",
+    "PrimaryWeapon": 12,
+    "SecondaryWeapon": 33,
+    "ClassCategory": 2
 }

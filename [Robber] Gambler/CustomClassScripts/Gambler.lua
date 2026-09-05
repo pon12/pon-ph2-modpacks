@@ -4,7 +4,7 @@ local gs = GetGameState()
 
 local name = "Gambler"
 
-local abilityCooldown = 5.0
+local abilityCooldown = 20.0
 
 local arcadeReward = 6000
 
@@ -47,11 +47,11 @@ ListenToEvent("AbilityKeyPressed_OnClient", function(playerActor)
     if playerActor.CustomClassString == name then
         --LogMessage("CLIENT: Gambler ability!")
         StartPieMenu(playerActor, {
-            {Name = gamblingAmount_1 .."k",    Description = gamblingChance_1.."0% Winchance", Icon = "Gambler_1.png"},
-            {Name = gamblingAmount_2.."k",   Description = gamblingChance_2.."0% Winchance", Icon = "Gambler_2.png"},
-            {Name = gamblingAmount_3.."k",  Description = gamblingChance_3.."0% Winchance", Icon = "Gambler_3.png"},
-            {Name = "All In",    Description = gamblingChance_4.."0% Winchance", Icon = "Gambler_4.png"},
-            {Name = "Cancel", Description = "Cancel Ability", Icon ="Gambler_5.png"}
+            {Name = gamblingAmount_1 .."$",    Description = gamblingChance_1.."0% Winchance", Icon = "Gambler_1.png"},
+            {Name = gamblingAmount_2.."$",   Description = gamblingChance_2.."0% Winchance", Icon = "Gambler_1.png"},
+            {Name = gamblingAmount_3.."$",  Description = gamblingChance_3.."0% Winchance", Icon = "Gambler_1.png"},
+            {Name = "All In",    Description = gamblingChance_4.."0% Winchance", Icon = "Gambler_1.png"},
+            {Name = "Cancel", Description = "Cancel Ability", Icon ="Gambler_cancel.png"}
         })
 
 
