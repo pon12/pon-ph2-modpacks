@@ -142,8 +142,8 @@ ListenToEvent("AbilitySV", function(playerActor)
     if playerActor.CustomClassString == name then
         local gamblerSelected = tonumber(playerActor:GetReplicatedVar("gamblerSelected"))
         --LogMessage("Gambler: " .. gamblerSelected)
-        local result = math.random(1,10)
-        --LogMessage(result)
+        local result = math.random(0,10)
+        LogMessage("Gambler: " ..result)
         if gamblerSelected == 1 then
             if result <= gamblingChance_1 then
                 --LogMessage("WIN")
