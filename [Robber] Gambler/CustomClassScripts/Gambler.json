@@ -1,0 +1,14 @@
+{
+    "IsRobber": true,
+    "DisplayName": "Gambler",
+    "ClothingRowName": "Customer_HoodieRed",
+    "AbilityName": "Pocket Casino",
+    "AbilityDescription": "Describe your ability here.",
+    "AbilityIcon": "Icon.png",
+    "PassiveName": "Lucky Hand",
+    "PassiveDescription": "You get 6000$ from every Arcade instead of 3000$.",
+    "PassiveIcon": "Icon.png",
+    "PrimaryWeapon": 1,
+    "SecondaryWeapon": 2,
+    "ClassCategory": 0
+}
